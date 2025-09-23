@@ -1,12 +1,15 @@
 <!doctype html>
-<html lang="">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Blue Harvest</title>
-  <link rel="stylesheet" href="css/style.css">
   <meta name="description" content="">
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+  <link rel="stylesheet" href="css/style.css" />
 
   <meta property="og:title" content="">
   <meta property="og:type" content="">
@@ -20,12 +23,12 @@
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
+  <script src="js/main.js"></script>
   <script src="js/app.js"></script>
-  <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
-<link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+
+<!-- <link rel="stylesheet" href="css/style.css"> -->
 <title>Blue Lagoon Restaurant App</title>
 </head>
 
@@ -46,7 +49,7 @@
               />
           </a>
         </div>
-        <div class="nav-menu-btn" id="menu-bgn">
+        <div class="nav-menu-btn" id="menu-btn">
           <i class="ri-menu-line"></i>
         </div>
       </div>
@@ -59,8 +62,156 @@
 
       </ul>
     </nav>
+    <div class="section-container section-header" id="home">
+      <div class="header-image">
+        <img src="img/header.png" alt="header"/>
+      </div>
+      <div class="header-content">
+        <h2>
+          ITS ALWAYS A GOOD TIME FOR A HAITIAN-MOROCCAN INFUSION!
+        </h2>
+        <h1>BURGER <BR /><span>WEEK</span></h1>
+
+      </div>
+    </div>
   </header>
 
+  <section class="section-container banner-container" id="special">
+    <div class="banner-card">
+      <p>FEELING PECKISH?</p>
+      <h4>
+        FRESH & FRUITY
+      </h4>
+
+      <div class="banner-card">
+        <p>FEELING HUNGRY?</p>
+        <h4>
+          MOST POPULAR DISH
+        </h4>
+      </div>
+
+      <div class="banner-card">
+        <p>FEELING HUNGRIER?</p>
+        <h4>
+          MOST POPULAR GROUP DISHES
+        </h4>
+      </div>
+    </div>
+  </section>
+
+<section class="section-container order-container" id="menu">
+  <h3>ALWAYS TASTEY MEAL</h3>
+  <h2 class="section-header">CHOOSE & ENJOY!</h2>
+  <p class="section-description">
+    Whether you crave traditional flavors or daring combinations, this is where you culinary journey begins. Indulge you cravings and savor every bite as you create your personalized burger experience with Burger Company.
+  </p>
+
+  <div class="order-grid">
+
+    <div class="order-card">
+      <img src="img/order-1.png" alt="order 1">
+      <h4>Chciket Tagine Dish</h4>
+      <p>Sink your teeth into the timeless perfection of our Chicken Tagine, an experience that never goes out of style</p>
+      <button class="btn">ORDER NOW</button>
+    </div>
+
+    <div class="order-card">
+      <img src="img/order-2.png" alt="order 2">
+      <h4>Lamb Tagine Dish</h4>
+      <p>Sink your teeth into the timeless perfection of our Lamb Tagine, an experience that never goes out of style</p>
+      <button class="btn">ORDER NOW</button>
+    </div>
+
+    <div class="order-card">
+      <img src="img/order-3.png" alt="order 3">
+      <h4>Vegan Tagine Dish</h4>
+      <p>Sink your teeth into the timeless perfection of our Vegan Tagine, an experience that never goes out of style</p>
+      <button class="btn">ORDER NOW</button>
+    </div>
+
+    <!-- <div class="order-card">
+        <img src="img/order-1.jpeg" alt="order 8">
+        <h4>Curry Dish</h4>
+        <p>Sink your teeth into the timeless perfection of our Curry dish, an experience that never goes out of style</p>
+        <button class="btn">ORDER NOW</button>
+    </div> -->
+  </div>
+  </section>
+
+  <section class="section-container event-container" id="event">
+    <div class="event-content">
+      <div class="event-image">
+        <img src="img/event.png" alt="event">
+      </div>
+      <div class="event-details">
+        <h3>Discover</h3>
+        <h2 class="section-header">UPCOMING EVENTS</h2>
+        <p class="section-description">
+          From exclusive tapas finger bites and chef collaborations to healthy smoothes for festive celebrations, there is always something special at Blue Lagoon. Be the first to know about our upcoming events, promotions & buffets as we continue to bring joy and flavor to our cherished customers. Join in b creating memorable moments and posting with this hash tag! #BlueLagoonMogador!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="reservation" id="contact">
+    <div class="section-container reservation-container">
+      <h3>RESERVATION</h3>
+      <h2 class="section-header">BOOK YOUR TABLE</h2>
+      <form action="/">
+        <input type="text" placeholder="NAME">
+        <input type="email" placeholder="EMAIL">
+        <input type="date" placeholder="DATE">
+        <input type="time" placeholder="TIME">
+        <input type="number" placeholder="PEOPLE">
+        <button class="btn" type="submit">FIND TABLE</button>
+      </form>
+    </div>
+
+    <img
+    src="img/reservation-bg-1.png"
+    alt="reservation"
+    class="reservation-bg-1"
+    />
+
+    <img
+    src="img/reservation-bg-2.png"
+    alt="reservation"
+    class="reservation-bg-1"
+    />
+  </section>
+
+  <footer class="footer">
+    <div class="section-container footer-container">
+      <div class="footer-logo">
+        <img src="img/logo-white.png" alt="logo" />
+        <div class="footer-content">
+          <p>
+            Welcome to house of infusions, where passion for exceptional food and genuine hospitality come together. Our story is one of dedication for crafting the perfect meal experience, from sourcing the food to marinating the ingredients into every bite.
+          </p>
+        </div>
+          <ul class="footer-links">
+            <li>
+              <span><i class="ri-map-pin-2-line"></i></span>
+              MG Souk, Rabat Morocco, 5000
+            </li>
+            <li>
+              <span><i class="ri-mail-line"></i></i></span>
+              info@bluelagoonfood.com
+            </li>
+          </ul>
+          <div class="footer-socials">
+            <a href="#"><i class="ri-twitter-line"></i></a>
+            <a href="#"><i class="ri-facebook-line"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-whatsapp-line"></i></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bar">
+      Copyright @2024 Web Design Mastery. All rights reserved.
+    </div>
+  </footer>
 
 </body>
 
