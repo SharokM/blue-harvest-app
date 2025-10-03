@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --primary-color:#42200b;
@@ -198,19 +198,19 @@ border-radius: 1rem;
 }
 
 .banner-card:nth-child(1){
-  background-image: url(img/banner-1.png);
+  background-image: url("img/banner-1.png");
 }
 
 .banner-card:nth-child(2){
-  background-image: url(img/banner-2.png);
+  background-image: url("img/banner-2.png");
 }
 
 .banner-card:nth-child(3){
-  background-image: url(img/banner-3.png);
+  background-image: url("img/banner-3.png");
 }
 
 .banner-card p {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 1.5rem;
   font-weight: 500;
   color: var(--white);
@@ -290,7 +290,7 @@ border-radius: 1rem;
   text-align: center;
 }
 
-.event-details{
+.event-details h3 {
   font-size: 2rem;
   font-weight: 500;
   font-family: var(--header-font-2);
@@ -356,7 +356,7 @@ border-radius: 1rem;
 }
 
 .footer-content p {
-  font-weight: 5500;
+  font-weight: 500;
   color: var(--white);
   line-height: 1.75rem;
 }
@@ -439,7 +439,7 @@ border-radius: 1rem;
     display: flex;
   }
 
-  .nav-logo-light {
+  .nav-logo-white {
     display: none;
   }
 
@@ -494,6 +494,7 @@ border-radius: 1rem;
     .order-grid {
       grid-template-columns: repeat(3, 1fr);
     }
+
     .event-content {
       grid-template-columns: repeat(2, 1fr);
       align-items: center;
@@ -544,9 +545,8 @@ border-radius: 1rem;
     }
   }
 
-  @media (width > 1024) {
+  @media (width > 1024px) {
     .order-grid {
       gap: 2rem;
     }
   }
-
